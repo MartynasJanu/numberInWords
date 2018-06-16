@@ -35,3 +35,24 @@ numberInWords::setDecimals(1);
 echo numberInWords::get(123456.12);
 // one hundred twenty three thousand four hundred fifty six 1
 ```
+
+```
+use numberInWords\numberInWords;
+
+$lang = [
+    'DIGIT_1' => 'one',
+    'DIGIT_10' => 'ten',
+    'DIGIT_11' => 'eleven',
+    'DIGIT_12' => 'twelve',
+    'DIGIT_13' => 'thirteen',
+    'DIGIT_14' => 'fourteen',
+    'DIGIT_15' => 'fifteen',
+    'DIGIT_16' => 'sixteen',
+    'DIGIT_17' => 'seventeen',
+    'DIGIT_18' => 'eighteen',
+    'DIGIT_19' => 'nineteen',
+    // ........
+];
+
+numberInWords::setLangStrings($lang);
+```
