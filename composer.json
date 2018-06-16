@@ -1,0 +1,8 @@
+{
+    "name": "MartynasJanu/numberInWords",
+    "autoload": {
+        "psr-4": {
+            "numberInWords\\": "src/"
+        }
+    }
+}
